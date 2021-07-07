@@ -1,10 +1,17 @@
 # TableLib
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
+It is experiment to investigate PrimeNg Table (https://www.primefaces.org/primeng/showcase/#/table)
 
-## Development server
 
+## Development server 
+
+### Using angular-cli
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng api` to start Json server (mock API). Json server is started by default on `http://localhost:3000`
+
+### Using yarn
+Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn api` to start Json server (mock API). Json server is started by default on `http://localhost:3000`
 
 ## Code scaffolding
 
