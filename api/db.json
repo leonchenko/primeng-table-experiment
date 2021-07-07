@@ -1,0 +1,1475 @@
+{
+  "data": {
+    "id": "bfe45f1e-fb88-479d-8d69-737420dbe245",
+    "headers": [
+      {
+        "id": "ACTIVITY.ID",
+        "displayName": "Idxs Butterfly effect let's make it very long",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"ID\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "INTEGER",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY.CASEKEY",
+        "displayName": "case_key",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"_CASE_KEY\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "STRING",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY.ACTIVITIES",
+        "displayName": "activity",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"ACTIVITIES\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "STRING",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY.EVENTTIME",
+        "displayName": "eventtime",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"EVENTTIME\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "DATE",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": "%Y-%m-%d %H:%M",
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY.USERNAME",
+        "displayName": "Username",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"USER_NAME\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "STRING",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY.SUMMARY",
+        "displayName": "summary",
+        "pql": "'User ' || \"PIZZAP2P_XLSX_SHEET_0\".\"USER_NAME\" || ' did the ' || \"PIZZAP2P_XLSX_SHEET_0\".\"ACTIVITIES\" || ' action at ' || TO_STRING ( DAY ( \"PIZZAP2P_XLSX_SHEET_0\".\"EVENTTIME\" ) ) || '.' || TO_STRING ( MONTH ( \"PIZZAP2P_XLSX_SHEET_0\".\"EVENTTIME\" ) ) || '.' || TO_STRING ( YEAR ( \"PIZZAP2P_XLSX_SHEET_0\".\"EVENTTIME\" ) )",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "STRING",
+        "columnType": "RECORD_ATTRIBUTE_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": true,
+        "sortable": true,
+        "editable": false
+      },
+      {
+        "id": "ACTIVITY_ID",
+        "displayName": "Activity Primary Key",
+        "pql": "\"PIZZAP2P_XLSX_SHEET_0\".\"ID\" || \"PIZZAP2P_XLSX_SHEET_0\".\"USER_NAME\"",
+        "recordMetadataId": "ACTIVITY",
+        "dataType": "STRING",
+        "columnType": "IDENTIFIER_COLUMN",
+        "format": null,
+        "unit": null,
+        "sortDirection": null,
+        "error": null,
+        "aggregation": false,
+        "filterable": false,
+        "sortable": false,
+        "editable": false
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "value": "130059",
+            "formattedValue": "130059",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435144133000",
+            "formattedValue": "Wed, 24 Jun 2015 11:08:53",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130059Adaline",
+            "formattedValue": "130059Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130060",
+            "formattedValue": "130060",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435235266000",
+            "formattedValue": "Thu, 25 Jun 2015 12:27:46",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Jonas",
+            "formattedValue": "Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "formattedValue": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130060Jonas",
+            "formattedValue": "130060Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130061",
+            "formattedValue": "130061",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1437757491000",
+            "formattedValue": "Fri, 24 Jul 2015 17:04:51",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Maximi",
+            "formattedValue": "Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "formattedValue": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130061Maximi",
+            "formattedValue": "130061Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130062",
+            "formattedValue": "130062",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435144133000",
+            "formattedValue": "Wed, 24 Jun 2015 11:08:53",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130062Adaline",
+            "formattedValue": "130062Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130063",
+            "formattedValue": "130063",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435235266000",
+            "formattedValue": "Thu, 25 Jun 2015 12:27:46",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Jonas",
+            "formattedValue": "Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "formattedValue": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130063Jonas",
+            "formattedValue": "130063Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130064",
+            "formattedValue": "130064",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1437757491000",
+            "formattedValue": "Fri, 24 Jul 2015 17:04:51",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Maximi",
+            "formattedValue": "Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "formattedValue": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130064Maximi",
+            "formattedValue": "130064Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130065",
+            "formattedValue": "130065",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435144133000",
+            "formattedValue": "Wed, 24 Jun 2015 11:08:53",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130065Adaline",
+            "formattedValue": "130065Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130066",
+            "formattedValue": "130066",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Call again and change pizza type",
+            "formattedValue": "Call again and change pizza type",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435144279000",
+            "formattedValue": "Wed, 24 Jun 2015 11:11:19",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": [
+              {
+                "recordId": "130066Adaline",
+                "taskId": "92db65ff-a023-4085-a2f5-60dd217e9f3f",
+                "name": "Call Again And Change Pizza Type Task",
+                "label": "Call Again And Change Pizza Type",
+                "owner": "USER:1bcec85e-879d-463b-b475-b41a116bc0ab",
+                "status": "OPEN"
+              }
+            ]
+          },
+          {
+            "value": "User Adaline did the Call again and change pizza type action at 24.6.2015",
+            "formattedValue": "User Adaline did the Call again and change pizza type action at 24.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130066Adaline",
+            "formattedValue": "130066Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130067",
+            "formattedValue": "130067",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435235266000",
+            "formattedValue": "Thu, 25 Jun 2015 12:27:46",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Jonas",
+            "formattedValue": "Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "formattedValue": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130067Jonas",
+            "formattedValue": "130067Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130068",
+            "formattedValue": "130068",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1437757491000",
+            "formattedValue": "Fri, 24 Jul 2015 17:04:51",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Maximi",
+            "formattedValue": "Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "formattedValue": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130068Maximi",
+            "formattedValue": "130068Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130069",
+            "formattedValue": "130069",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435144133000",
+            "formattedValue": "Wed, 24 Jun 2015 11:08:53",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 24.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130069Adaline",
+            "formattedValue": "130069Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130070",
+            "formattedValue": "130070",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1435235266000",
+            "formattedValue": "Thu, 25 Jun 2015 12:27:46",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Jonas",
+            "formattedValue": "Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "formattedValue": "User Jonas did the Send out delivery man action at 25.6.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130070Jonas",
+            "formattedValue": "130070Jonas",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "130071",
+            "formattedValue": "130071",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.2013505636328E18",
+            "formattedValue": "1.2013505636328E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1437757491000",
+            "formattedValue": "Fri, 24 Jul 2015 17:04:51",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Maximi",
+            "formattedValue": "Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "formattedValue": "User Maximi did the Pay pizza delivery man action at 24.7.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "130071Maximi",
+            "formattedValue": "130071Maximi",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479374",
+            "formattedValue": "479374",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1448895014000",
+            "formattedValue": "Mon, 30 Nov 2015 14:50:14",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 30.11.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 30.11.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479374Adaline",
+            "formattedValue": "479374Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479375",
+            "formattedValue": "479375",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Call again and change pizza type",
+            "formattedValue": "Call again and change pizza type",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1448895067000",
+            "formattedValue": "Mon, 30 Nov 2015 14:51:07",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Call again and change pizza type action at 30.11.2015",
+            "formattedValue": "User Adaline did the Call again and change pizza type action at 30.11.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479375Adaline",
+            "formattedValue": "479375Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479376",
+            "formattedValue": "479376",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Bake",
+            "formattedValue": "Bake",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1449917583000",
+            "formattedValue": "Sat, 12 Dec 2015 10:53:03",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Max",
+            "formattedValue": "Max",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Max did the Bake action at 12.12.2015",
+            "formattedValue": "User Max did the Bake action at 12.12.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479376Max",
+            "formattedValue": "479376Max",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479377",
+            "formattedValue": "479377",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1450344246000",
+            "formattedValue": "Thu, 17 Dec 2015 09:24:06",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Tom",
+            "formattedValue": "Tom",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Tom did the Send out delivery man action at 17.12.2015",
+            "formattedValue": "User Tom did the Send out delivery man action at 17.12.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479377Tom",
+            "formattedValue": "479377Tom",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479378",
+            "formattedValue": "479378",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1452179006000",
+            "formattedValue": "Thu, 07 Jan 2016 15:03:26",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Noah",
+            "formattedValue": "Noah",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Noah did the Pay pizza delivery man action at 7.1.2016",
+            "formattedValue": "User Noah did the Pay pizza delivery man action at 7.1.2016",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479378Noah",
+            "formattedValue": "479378Noah",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479379",
+            "formattedValue": "479379",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Roll out the dough",
+            "formattedValue": "Roll out the dough",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1448895014000",
+            "formattedValue": "Mon, 30 Nov 2015 14:50:14",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Roll out the dough action at 30.11.2015",
+            "formattedValue": "User Adaline did the Roll out the dough action at 30.11.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479379Adaline",
+            "formattedValue": "479379Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479380",
+            "formattedValue": "479380",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Call again and change pizza type",
+            "formattedValue": "Call again and change pizza type",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1448895067000",
+            "formattedValue": "Mon, 30 Nov 2015 14:51:07",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Adaline",
+            "formattedValue": "Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Adaline did the Call again and change pizza type action at 30.11.2015",
+            "formattedValue": "User Adaline did the Call again and change pizza type action at 30.11.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479380Adaline",
+            "formattedValue": "479380Adaline",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479381",
+            "formattedValue": "479381",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Bake",
+            "formattedValue": "Bake",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1449917583000",
+            "formattedValue": "Sat, 12 Dec 2015 10:53:03",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Max",
+            "formattedValue": "Max",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Max did the Bake action at 12.12.2015",
+            "formattedValue": "User Max did the Bake action at 12.12.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479381Max",
+            "formattedValue": "479381Max",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479382",
+            "formattedValue": "479382",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Send out delivery man",
+            "formattedValue": "Send out delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1450344246000",
+            "formattedValue": "Thu, 17 Dec 2015 09:24:06",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Tom",
+            "formattedValue": "Tom",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Tom did the Send out delivery man action at 17.12.2015",
+            "formattedValue": "User Tom did the Send out delivery man action at 17.12.2015",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479382Tom",
+            "formattedValue": "479382Tom",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "value": "479383",
+            "formattedValue": "479383",
+            "type": "INTEGER",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1.20135059688720077E18",
+            "formattedValue": "1.20135059688720077E18",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Pay pizza delivery man",
+            "formattedValue": "Pay pizza delivery man",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "1452179006000",
+            "formattedValue": "Thu, 07 Jan 2016 15:03:26",
+            "type": "DATE",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "Noah",
+            "formattedValue": "Noah",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "User Noah did the Pay pizza delivery man action at 7.1.2016",
+            "formattedValue": "User Noah did the Pay pizza delivery man action at 7.1.2016",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          },
+          {
+            "value": "479383Noah",
+            "formattedValue": "479383Noah",
+            "type": "STRING",
+            "alerts": [],
+            "tasks": []
+          }
+        ]
+      }
+    ],
+    "totalCount": 23,
+    "error": null
+  },
+  "exampleData": [
+    {
+      "id": "1000",
+      "code": "f230fh0g3",
+      "name": "Bamboo Watch",
+      "description": "Product Description",
+      "image": "bamboo-watch.jpg",
+      "price": 65,
+      "category": "Accessories",
+      "quantity": 24,
+      "inventoryStatus": "INSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "1001",
+      "code": "nvklal433",
+      "name": "Black Watch",
+      "description": "Product Description",
+      "image": "black-watch.jpg",
+      "price": 72,
+      "category": "Accessories",
+      "quantity": 61,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "1002",
+      "code": "zz21cz3c1",
+      "name": "Blue Band",
+      "description": "Product Description",
+      "image": "blue-band.jpg",
+      "price": 79,
+      "category": "Fitness",
+      "quantity": 2,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3
+    },
+    {
+      "id": "1003",
+      "code": "244wgerg2",
+      "name": "Blue T-Shirt",
+      "description": "Product Description",
+      "image": "blue-t-shirt.jpg",
+      "price": 29,
+      "category": "Clothing",
+      "quantity": 25,
+      "inventoryStatus": "INSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "1004",
+      "code": "h456wer53",
+      "name": "Bracelet",
+      "description": "Product Description",
+      "image": "bracelet.jpg",
+      "price": 15,
+      "category": "Accessories",
+      "quantity": 73,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "1005",
+      "code": "av2231fwg",
+      "name": "Brown Purse",
+      "description": "Product Description",
+      "image": "brown-purse.jpg",
+      "price": 120,
+      "category": "Accessories",
+      "quantity": 0,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "1006",
+      "code": "bib36pfvm",
+      "name": "Chakra Bracelet",
+      "description": "Product Description",
+      "image": "chakra-bracelet.jpg",
+      "price": 32,
+      "category": "Accessories",
+      "quantity": 5,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 3
+    },
+    {
+      "id": "1007",
+      "code": "mbvjkgip5",
+      "name": "Galaxy Earrings",
+      "description": "Product Description",
+      "image": "galaxy-earrings.jpg",
+      "price": 34,
+      "category": "Accessories",
+      "quantity": 23,
+      "inventoryStatus": "INSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "1008",
+      "code": "vbb124btr",
+      "name": "Game Controller",
+      "description": "Product Description",
+      "image": "game-controller.jpg",
+      "price": 99,
+      "category": "Electronics",
+      "quantity": 2,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "1009",
+      "code": "cm230f032",
+      "name": "Gaming Set",
+      "description": "Product Description",
+      "image": "gaming-set.jpg",
+      "price": 299,
+      "category": "Electronics",
+      "quantity": 63,
+      "inventoryStatus": "INSTOCK",
+      "rating": 3
+    }
+  ]
+}
+
+
